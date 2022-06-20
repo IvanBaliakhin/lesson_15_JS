@@ -9,7 +9,7 @@ console.log('Sample JavaScript #3 HW #15');
  * если нет – то счет продолжается
  */
 let counter = (function () {
-  var count = 0;
+  let count = 0;
 
   return function (n) {
     if (n !== undefined) count = n;
